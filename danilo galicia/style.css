@@ -1,0 +1,135 @@
+
+ *{
+    margin: 0px;
+    padding: 0px;    
+}
+#contenedor{
+    width: 80%;
+    margin: 0 auto;   
+}
+#caja-heder{
+    height: 800px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top:3%;
+    background-color: rgb(38, 196, 182);
+    border: 1px solid;
+    border-color: rgb(53, 196, 196);
+    height: 15%;
+    line-height: 50px;
+
+}
+#caja2{
+    height: 800px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top:3%;
+    background-color: rgb(38, 196, 182);
+    border: 1px solid;
+    border-color: rgb(53, 196, 196);
+    height: 10%;
+    line-height: 50px;
+}
+h3{
+   margin-left: 2%;
+   margin-right: 2%;
+   background-color:none;
+   color:white;
+   display: inline-block;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+#caja-body{
+   
+    height: 800px;
+    border: 1px solid;
+    border-color: rgb(53, 196, 196);
+    border-top: none;
+}
+#caja-foot{
+    height: 25%;
+    border: 1px solid;
+    border-color: rgb(53, 196, 196);
+    border-top:none;
+    margin-bottom: 3%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    line-height: 50px;
+    background-color: rgb(15, 85, 216);
+}
+
+h4{
+    display: inline-block;
+    margin-left: 3%;
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+}
+#contacto-foot{
+   float:right;
+   margin-right: 3%;
+}
+.body-cajas{
+    display: inline-block;
+    height: 100%;
+    background: rgb(15, 127, 184);
+    border: 1px solid;
+    border-color: black;
+}
+#caja1-body{
+  margin-left: 1%;
+  position: relative;
+}
+h1{
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(3, 3, 3);
+}
+#caja1-body{
+     width: 70%;
+     position: relative;
+}
+#caja2-body{
+    width: 28%;
+    position: relative;
+}
+#parrrafo1{
+    position: absolute;
+    margin-top: 55px;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+  
+    color: rgb(5, 4, 4);
+}
+h2{
+    margin-top: 250px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    color: rgb(10, 8, 8); 
+}
+#parrrafo2{
+    position: absolute;
+    margin-top: 285px;
+    text-align: justify;
+    margin-left: 3%;
+    margin-right: 3%;
+ 
+    color: rgb(5, 4, 4);
+}
+#caja2-body{
+    position: relative;
+}
+#contenedor-lista{
+    position: absolute;
+    width: 100px;
+    
+    color: rgb(0, 0, 0);
+    margin-left: 45%;
+    margin-top: 50PX;
+}
