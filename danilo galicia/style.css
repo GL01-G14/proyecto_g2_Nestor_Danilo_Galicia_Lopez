@@ -14,23 +14,23 @@
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     margin-top:3%;
-    background-color: rgb(41, 167, 156);
+    background-color: rgb(92, 194, 185);
     border: 1px solid;
-    border-color: rgb(197, 207, 207);
+    border-color: rgb(8, 114, 114);
     height: 20%;
-    line-height: 100px;
+    line-height: 130px;
     text-align: center;
     font-size: 40px;
     
 }
 #caja2{
     height: 900px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-top:3%;
-    background-color: rgba(0, 0, 0, 0.945);
+    margin-top: 2%;
+    background-color: rgba(32, 30, 30, 0.945);
+    border-radius: 10px;
+    color: #fff;
     border: 1px solid;
-    border-color: rgb(8, 95, 88);
+    border-color: rgb(13, 28, 243);
     height: 10%;
     line-height: 50px;
 }
@@ -38,6 +38,10 @@ div#caja2{
     text-align: center;
     
 }
+a{
+    color: aliceblue;
+    text-decoration: none;
+} 
 ul li {
     display: inline-block;
     margin-left: 40px;
@@ -47,18 +51,10 @@ ul li {
     
 }
 ul li:hover {
-    background: rgb(30, 204, 45);
-  
+    background: rgb(26, 56, 28);
     border-radius: 10px;
-}
-h3{
-   margin-left: 2%;
-   margin-right: 2%;
-   background-color:none;
-   color:white;
-   display: inline-block;
-   font-family: Georgia, 'Times New Roman', Times, serif;
-
+    cursor: pointer;
+    outline: none;
 }
 
 
@@ -109,8 +105,9 @@ h1{
     position: absolute;
     width: 93%;
     text-align: center;
-    color: rgb(3, 3, 3);
+    color: rgb(0, 0, 0);
   }
+
 #caja1-body{
      float: left;
      width: 69%;
@@ -128,6 +125,7 @@ h1{
     margin-right: 3%;
     color: rgb(0, 0, 0);
 }
+
 
 img{
     margin-right:5%;
@@ -148,10 +146,9 @@ img{
 }
 button{
     background-color: rgba(0, 0, 0, 0.822);
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 17px;
     margin-top: 30px;
-    border: none;
     width: 90%;
     outline: none;
     letter-spacing: 1px;
@@ -164,5 +161,7 @@ button{
     -moz-transition: .5s ease-in;
     -o-transition:  .5s ease;
     margin-left: 1%;
+    border-radius: 10px;
+    background: rgb(84, 192, 192);
    
 }
